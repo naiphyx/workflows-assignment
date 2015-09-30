@@ -2,5 +2,5 @@
 
 > Assignment for Web Production Workflows
 
-![](http://gyf.us/if6jgrpxNkSm0tN1e.gif)
+![](http://dlfeg2z65vp5k.cloudfront.net/if6jgrpxNkSm0tN1e.gif)
 
