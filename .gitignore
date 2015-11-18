@@ -1,18 +1,16 @@
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
+# system
+.DS_Sytem
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
 
+# IDE
+.idea/
 
+# deps
+node_modules/
+
+# app
+.yo-rc.json
+tmp/
+
+# build
+dist/
