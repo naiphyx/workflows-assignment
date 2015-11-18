@@ -68,6 +68,16 @@ module.exports = generators.Base.extend({
     )
 
     this.fs.copy(
+      this.templatePath('scripts/pages/index.js'),
+      this.destinationPath('app/scripts/pages/index.js')
+      )
+
+    this.fs.copy(
+      this.templatePath('scripts/templates/home.hbs'),
+      this.destinationPath('app/scripts/templates/home.hbs')
+      )
+
+    this.fs.copy(
       this.templatePath('icons/*'),
       this.destinationPath('app/icons/')
     )
